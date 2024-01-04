@@ -1,0 +1,93 @@
+@import url(/assets/css/index-animation.css);
+@import url(index.css);
+@import url(ishlemci-denetleyici.css);
+@import url(item-2.css);
+@import url(hover.css);
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+
+
+/* COLORS */
+
+.bg-main-color {
+  background-color: #dadae6 !important;
+}
+.bg-second-color {
+    background-color: #2929cc !important;
+}
+
+.bg-third-color {
+    background-color: #141466 !important;
+}
+
+
+.color-dark {
+    background-color: #e7e9eb;
+    position: fixed;
+    height: 100%;
+}
+
+
+.mt-50 {
+    margin-top: 150px;
+}
+
+.margin-0 {
+    margin: 0;
+}
+
+.padding-0 * {
+    padding: 0 !important;
+}
+
+.row {
+    margin: 0;
+}
+
+.col-2 {
+    width: fit-content;
+    min-width: 200px;
+}
+
+
+iframe {
+    background-position: center;
+    background-size: cover;
+    width: 100% !important;
+    height: 80vh !important;
+}
+
+
+
+
+.fs-50 {
+    font-size: 14px !important;
+}
+
+
+
+
+::-webkit-scrollbar {
+    background-color: #e7e9eb;
+    width: 6px !important;
+    height: 6px !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #0d6efd;
+}
+
+
+
+
+
+
+
+footer {
+    background-color: rgb(22, 42, 86);
+    margin-left: 200px;
+    padding: 50px;
+    margin-top: 30px;
+    color: #fff;
+}
