@@ -48,8 +48,6 @@
                 <li><a href="algoritma_2.html">Akış Diyagramları</a></li>
 
 
-
-
             </ul>
         </div>
     </header>
@@ -61,12 +59,9 @@
             
             <div id="list-example" class="left-aside fs-50 pe-2 list-group scrool-bar">
               <h2 class="mt-4 mb-4">Tutorial</h2>
-              <a class="list-group-item list-group-item-action" href="#sistem_yollari">SISTEM YOLLARI</a>
-              <a class="list-group-item list-group-item-action" href="#veri_you">VERI YOLU</a>
-              <a class="list-group-item list-group-item-action" href="#adres_yolu">ADRES YOLU</a>
-              <a class="list-group-item list-group-item-action" href="#kontrol_yolu">KONTROL YOLU</a>
-              <a class="list-group-item list-group-item-action" href="#temel_islemci_yapisi">TEMEL İŞLEMCİ YAPISI</a>
-              <a class="list-group-item list-group-item-action" href="#veri_isleme_adimlari">VERİ İŞLEME ADIMLARI</a>
+              <a class="list-group-item list-group-item-action" href="#cevirici">ASSEMBLER (ÇEVİRİCİ)</a>
+              <a class="list-group-item list-group-item-action" href="#kume_programlama">COMPILER <br> INTERPRETER</a>
+              <a class="list-group-item list-group-item-action" href="#derleyici_2">Dil Seviyyeleri</a>
               <a class="list-group-item list-group-item-action" href="exercise.html"><>  Compiler</a>
 
             </div>
@@ -86,7 +81,7 @@
 
                     <div class="ishlemci-denetleyici-h3 bg-primary text-light">
 
-                        <h3 id="#">İşlemci Nasıl Çalışır?</h3>
+                        <h3 id="cevirici">ASSEMBLER (ÇEVİRİCİ)</h3>
 
                     </div>
                     
@@ -94,11 +89,19 @@
 
 <section>
 
+    <div class="bitli_birimler">
+        <img src="/assets/img/img_9_1.jpg" alt="">
+    </div>
 
 
 </section>
 
+<div>
+    <p style="font-size: 22px;">Assembler, yazılan kodları baştan sona okuyarak hataları denetler ve 
+        hatasız olduğunu onayladığı zaman istenilen başka bir dile çevirir.
+        </p>
 
+</div>
 
 
 
@@ -112,63 +115,49 @@
             <section id="kume_programlama" class="mt-5">
 
                 <div class="ishlemci-denetleyici-h3 bg-primary text-light">
-                    <h2 id="sistem_yollari">SISTEM YOLLARI</h2>              
+                    <h2 id="#">COMPILER – INTERPRETER</h2>
                 </div>
                 
 <!-- DATA START  -->
 
 
+                <section class="mt-5 ms-5 d-flex">
+
+                    <div class="me-5">
+                        <h5 id="derleyici_2">DERLEYİCİ</h5>
+
+                        <ul>
+                            <li>Kodları tamamını inceler ve hata varsa uyarır.</li>
+                            <li>Kodların yazımında hata yapılmadıysa derleyici kodları makine koduna çevirir.</li>
+                            <li>Tüm kodları incelediği için programın çalıştırılması uzun sürebilir.</li>
+                        </ul>
+                    </div>
+
+                    <div>
+
+                        <h5>YORUMLAYICI</h5>
+
+                        <ul>
+                            <li>Kodları satır satır incelediği için hatayı sadece ilgili satıra geldiğinde tespit edebilir</li>
+                            <li>Kodların tamamı incelenmediği için program ilk yüklemede daha hızlı yüklenecektir</li>
+                        </ul>
+
+                    </div>
+               
+                </section>
                 <section>
-
-                    <div class="bitli_birimler">
-                        <img src="/assets/img/sistem_yollari.jpg" alt="">
-                    </div>
-                
-
-                <div class="ishlemci-denetleyici-h3 bg-primary text-light">
-                    <h2 id="veri_you">VERI YOLU</h2>              
-                </div>
-    
-                    <div class="bitli_birimler">
-                        <img src="/assets/img/veri_yolu.jpg" alt="">
-                    </div>
-                
-                <div class="ishlemci-denetleyici-h3 bg-primary text-light">
-                    <h2 id="adres_yolu">ADRES YOLU</h2>              
-                </div>
-                
-                    <div class="bitli_birimler">
-                        <img src="/assets/img/adres_yolu.jpg" alt="">
-                    </div>
-                
-                
-                <div class="ishlemci-denetleyici-h3 bg-primary text-light">
-                    <h2 id="kontrol_yolu">KONTROL YOLU</h2>              
-                </div>
-                
-                    <div class="bitli_birimler">
-                        <img src="/assets/img/kontrol_yolu.jpg" alt="">
-                    </div>
-
-                <div class="ishlemci-denetleyici-h3 bg-primary text-light">
-                    <h2 id="temel_islemci_yapisi">TEMEL İŞLEMCİ YAPISI</h2>              
-                </div>
-                    
-                    <div class="bitli_birimler">
-                        <img src="/assets/img/temel_yapi.jpg" alt="">
+                    <div class="ishlemci-denetleyici-h3 bg-primary text-light">
+                        <h2 id="dil_seviyyeleri">DİL SEVİYELERİ</h2>
                     </div>
 
 
-                <div class="ishlemci-denetleyici-h3 bg-primary text-light">
-                    <h2 id="veri_isleme_adimlari">VERİ İŞLEME ADIMLARI</h2>              
-                </div>
-                
                     <div class="bitli_birimler">
-                        <img src="/assets/img/veri_isleme.jpg" alt="">
+                        <img src="/assets/img/img_9_2.jpg" alt="">
                     </div>
 
 
-                
+
+
                 </section>
 
 

@@ -136,3 +136,20 @@
 .stronglu_p {
     font-size: 20px;
 }
+
+
+.as_main_ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.flexli_birimler {
+    justify-content: space-around;
+}
+
+.danger {
+    color: red;
+}
