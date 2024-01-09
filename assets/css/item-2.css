@@ -153,3 +153,17 @@
 .danger {
     color: red;
 }
+
+.colons {
+    flex-direction: row !important;
+    display: flex;
+    gap: 90px;
+    font-size: 25px;
+    justify-content: center;
+}
+
+.red_border {
+    font-size: 23px;
+    border: 2px solid red;
+    margin: 30px 130px;
+}
