@@ -184,3 +184,6 @@
     width: max-content;
 }
 
+.al_itm_c {
+    align-items: center;
+}

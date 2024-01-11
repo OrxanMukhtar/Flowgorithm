@@ -35,6 +35,9 @@
 
             <ul class="d-flex text-light justify-content-around">
 
+
+
+
                 <li class="active-btn"><a href="/assets/html/argument-2.html">Flowgorithm Dökümantasyonu</a></li>
                 <li><a href="/assets/html/ishlemci_denetleyici.html">Mikro işlemci ve denetleyici</a></li>
                 <li><a href="/assets/html/assembly.html">Bilgisayar Mimarisi</a></li>
@@ -62,6 +65,12 @@
                 <li><a href="/assets/html/bolum_2_html/stack_yigin.html">Stack(Yığın)</a></li>
                 <li><a href="/assets/html/bolum_2_html/arifmetik_mantik_bayraklar.html">Aritmetik-Mantık Birimi (ALU) ve Bayraklar (Flags)</a></li>
                 <li><a href="/assets/html/bolum_2_html/program_akish_kontrolu.html">Program Akış Kontrolü</a></li>
+                <li><a href="/assets/html/bolum_2_html/shr_shl_komutu.html">SHR ve SHL Komutları</a></li>
+                <li><a href="/assets/html/bolum_2_html/sar_sal_komutu.html">SAR ve SAL Komutları</a></li>
+                <li><a href="/assets/html/bolum_2_html/ror_rol_komutu.html">ROR ve ROL Komutları</a></li>
+                <li><a href="/assets/html/bolum_2_html/rcr_rcl_komutu.html">RCR ve RCL Komutları</a></li>
+                <li><a href="/assets/html/bolum_2_html/data_extra_segment.html"> Data Segment ve Extra Segment Kullanımı</a></li>
+                <li><a href="/assets/html/bolum_2_html/prosedur.html">Prosedür(Procedure) Nedir?</a></li>
 
 
 
@@ -77,12 +86,7 @@
         
         <div id="list-example" class="left-aside fs-50 pe-2 list-group scrool-bar">
             <h2 class="mt-4 mb-4">Tutorial</h2>
-            <a class="list-group-item list-group-item-action" href="#id_1">Program <br> Akış Kontrolü</a>
-            <a class="list-group-item list-group-item-action" href="#id_2">AKIŞ KONTROLÜ <br> TÜRLERİ</a>
-            <a class="list-group-item list-group-item-action" href="#id_3">KOŞULSUZ ATLAMALAR <br> (JMP)</a>
-            <a class="list-group-item list-group-item-action" href="#id_4">KARŞILAŞTIRMA (CMP)</a>
-            <a class="list-group-item list-group-item-action" href="#id_5">ATLAMA SINIRI</a>
-            <a class="list-group-item list-group-item-action" href="#id_6">TEK OPERASYON KODU</a>
+            <a class="list-group-item list-group-item-action" href="#id_1">PROSEDÜR <br> (PROCEDURE)</a>
             <a class="list-group-item list-group-item-action" href="exercise.html"><>  Compiler</a>
         </div>
 
@@ -100,7 +104,7 @@
                 <div class="ishlemci-denetleyici-div pt-5">
 
                     <div class="ishlemci-denetleyici-h3 bg-primary text-light">
-                        <h3 id="id_1">Program Akış Kontrolü</h3>
+                        <h3 id="id_1">PROSEDÜR(PROCEDURE)</h3>
                     </div>
                     
                                 <!-- DATA START  -->
@@ -108,8 +112,10 @@
                         <section>
 
                             <div class="bitli_birimler">
-                                <img style="width: 90%;" src="/assets/img/img_siralama_2/img14_1.jpg" alt="">
+                                <img src="/assets/img/img_siralama_2/img56_1.jpg" alt="">
+                                <img src="/assets/img/img_siralama_2/img56_2.jpg" alt="">
                             </div>
+
 
 
 
@@ -122,8 +128,6 @@
 
             <section id="kume_programlama" class="mt-5">
 
-                <div class="ishlemci-denetleyici-h3 bg-primary text-light">
-                    <h2 id="id_2">AKIŞ KONTROLÜ TÜRLERİ</h2>
                 </div>
                 
                                 <!-- DATA START  -->
@@ -131,75 +135,10 @@
 
                     <section>
                     
-                        <div class="bitli_birimler">
-                            <img style="width: 90%;" src="/assets/img/img_siralama_2/img14_2.jpg" alt="">
-                        </div>
-
                     
                     </section>
 
-                    <div class="ishlemci-denetleyici-h3 bg-primary text-light">
-                        <h2 id="id_3">KOŞULSUZ ATLAMALAR (JMP)</h2>
-                    </div>
-    
-                    <p style="margin: 30px 60px;">
-                        <strong>JMP</strong> mevcut Code Segment (CS) üzerinde herhangi bir yere atlama gerçekleştirebilir.
-                        Bir Segment boyutunun 65535 bayt (byte) olduğu unutulmamalıdır
-                    </p>
 
-                    <div class="bitli_birimler">
-                        <img style="width: 40%;" src="/assets/img/img_siralama_2/img14_3.jpg" alt="">
-                    </div>
-
-
-                    <div class="ishlemci-denetleyici-h3 bg-primary text-light">
-                        <h2 id="id_4">KARŞILAŞTIRMA (CMP)</h2>
-                    </div>
-
-
-                    <p style="margin: 30px 60px;">
-                        Genel olarak, sayısal değerleri karşılaştırmak gerektiğinde <strong>CMP</strong> komutu
-                        kullanılır. <strong>SUB</strong> komutu ile aynı işlemi gerçekleştirir ancak sonucu herhangi
-                        bir yerde tutmaz, <span style="text-decoration: underline;">sadece bayrakları</span> etkiler
-                    </p>
-
-                    <div class="bitli_birimler">
-                        <img  src="/assets/img/img_siralama_2/img14_4.jpg" alt="">
-                    </div>
-
-
-                    <div class="ishlemci-denetleyici-h3 bg-primary text-light">
-                        <h2 id="id_5">ATLAMA SINIRI</h2>
-                    </div>
-
-                    <p class="red_border" style="padding: 30px !important;">
-                        Koşullu Kısa Atlama komutları CS üzerinde <strong>127 byte</strong> ileriye <strong>128 byte</strong> geriye doğru 
-                        atlayabilir. Bunu aşmak için istenilen koşulun tam tersi ile birlikte JMP komutu
-                        kullanılabilir. Emu8086 son sürümleri bu işlemi otomatik olarak yapmaktadır. Eğer 
-                        atlama <strong>+127/-128</strong> <span style="text-decoration: underline;">değerlerini aşmıyorsa</span> herhangi bir <span style="text-decoration: underline;">değişim olmayacaktır</span>
-                    </p>
-
-                    <div class="bitli_birimler">
-                        <img style="width: 80%;" src="/assets/img/img_siralama_2/img14_5.jpg" alt="">
-                    </div>
-                    <div class="bitli_birimler">
-                        <img style="width: 80%;" src="/assets/img/img_siralama_2/img14_6.jpg" alt="">
-                    </div>
-
-
-                    <div class="ishlemci-denetleyici-h3 bg-primary text-light">
-                        <h2 id="id_6">TEK OPERASYON KODU</h2>
-                    </div>
-
-                    <p style="margin: 30px 60px;">
-                        Bazı komutlar aynı işi yapmalarına rağmen farklı isimler ile adlandırılmaktadırlar.
-                        Bunun nedeni programcının komutları daha kolay aklında tutabilmesini sağlamaktır. Ancak
-                        Yapılan işlem aynı olduğu için tek bir <strong>Opcode</strong> üretili
-                    </p>
-
-                    <div class="bitli_birimler">
-                        <img style="width: 80%;" src="/assets/img/img_siralama_2/img14_7.jpg" alt="">
-                    </div>
 
 
                             <!-- DATA END  -->
