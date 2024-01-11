@@ -187,3 +187,9 @@
 .al_itm_c {
     align-items: center;
 }
+
+.flexler {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
