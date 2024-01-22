@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/intro_style.css">
+    <title>W3</title>
+</head>
+<body>
+
+    <header class="bg-primary">
+
+        <div class="d-flex justify-content-between container">
+
+            <nav class="nav_intro container_intro">
+                <h2 class="nav_logo"><a href="/index.html">Coding</a></h2>
+        
+                <ul class="menu_items">
+                    <img src="/assets/img/intro_images/times.svg" alt="timesicon" id="menu_toggle" />
+                    <li><a href="/assets/html/argument-2.html" class="nav_link">Arduino Tutorial</a></li>
+                    <li><a href="/assets/html/argument-2.html" class="nav_link">Assembly Tutorial</a></li>
+                    <li><a href="/assets/html/arduino/arduino_emulator.html" class="nav_link">Arduino Emulator</a></li>
+                    <li><a href="/assets/html/exercise.html" class="nav_link">Emu8086 Compiler</a></li>
+                    <li style="width: fit-content;"><a href="/assets/html/contact.html" class="nav_link">Contact</a></li>
+                </ul>
+                <img src="/assets/img/intro_images/icons8-menu-100.png" alt="timesicon" id="menu_toggle" />
+              </nav>
+        
+        </div>
+
+
+        <div class="nav-2 bg-primary">
+            <!-- CONTENT -->
+
+            <ul class="d-flex text-light justify-content-around">
+
+
+
+
+                <!-- <li class="active-btn"><a href="/assets/html/argument-2.html">Flowgorithm Dökümantasyonu</a></li>
+                <li><a href="/assets/html/ishlemci_denetleyici.html">Mikro işlemci ve denetleyici</a></li>
+                <li><a href="/assets/html/assembly.html">Bilgisayar Mimarisi</a></li>
+                <li><a href="/assets/html/ishlemci_mimarisi.html">İşlemci Mimarisi</a></li>
+                <li><a href="/assets/html/hafiza_birimleri.html">Hafiza Birimleri</a></li>
+                <li><a href="/assets/html/ishlemci_nasil_calishir.html">İşlemci Nasıl Çalışır?</a></li>
+                <li><a href="/assets/html/adreslenebilir_hafiza.html"> İşlemci ve RAM İlişkisi</a></li>
+                <li><a href="/assets/html/assembly_assembler.html">Assembly ve Assembler Nedir?</a></li>
+                <li><a href="/assets/html/derleyici.html">Compiler ve Interpreter</a></li>
+                <li><a href="/assets/html/algoritma_1.html">Algoritma, Sözde Kod</a></li>
+                <li><a href="/assets/html/algoritma_2.html">Akış Diyagramları</a></li>
+                <li><a href="/assets/html/bolum_2_html/sayi_siralama.html">Sayı Sıralama</a></li>
+                <li><a href="/assets/html/bolum_2_html/onluk_birimler.html">Onluk (Decimal) Sayı Sistemi</a></li>
+                <li><a href="/assets/html/bolum_2_html/ikili_sayi_sistemleri.html">İkilik (Binary) Sayı Sistemi</a></li>
+                <li><a href="/assets/html/bolum_2_html/sekizlik_sistemler.html">Sekizlik (Octal) Sayı Sistemi</a></li>
+                <li><a href="/assets/html/bolum_2_html/onaltilik_sistem.html"> Onaltılık (Hexadecimal) Sayı Sistemi</a></li>
+                <li><a href="/assets/html/bolum_2_html/tumleyen_aritmetik.html">TÜMLEYEN ARİTMETİĞİ</a></li>
+                <li><a href="/assets/html/bolum_2_html/intel8086_ishlemci.html">Intel8086 İşlemcisi</a></li>
+                <li><a href="/assets/html/bolum_2_html/segment_bolut.html">Segment (Bölüt) Kaydedicileri ve RAM</a></li>
+                <li><a href="/assets/html/bolum_2_html/veri_ram_durumu.html">Verilerin RAM Üzerindeki Durumu</a></li>
+                <li><a href="/assets/html/bolum_2_html/derleyici_yazim.html">Derleyici Yazım Formatı ve Segment Tanımlamaları</a></li>
+                <li><a href="/assets/html/bolum_2_html/degiskenler.html">Değişkenler (Variables)</a></li>
+                <li><a href="/assets/html/bolum_2_html/sasbitler.html">Sabitler (Constants)</a></li>
+                <li><a href="/assets/html/bolum_2_html/hafiza_erisim.html"> Hafıza Erişim Yöntemleri (Adresleme Modları)</a></li>
+                <li><a href="/assets/html/bolum_2_html/stack_yigin.html">Stack(Yığın)</a></li>
+                <li><a href="/assets/html/bolum_2_html/arifmetik_mantik_bayraklar.html">Aritmetik-Mantık Birimi (ALU) ve Bayraklar (Flags)</a></li>
+                <li><a href="/assets/html/bolum_2_html/program_akish_kontrolu.html">Program Akış Kontrolü</a></li>
+                <li><a href="/assets/html/bolum_2_html/shr_shl_komutu.html">SHR ve SHL Komutları</a></li>
+                <li><a href="/assets/html/bolum_2_html/sar_sal_komutu.html">SAR ve SAL Komutları</a></li>
+                <li><a href="/assets/html/bolum_2_html/ror_rol_komutu.html">ROR ve ROL Komutları</a></li>
+                <li><a href="/assets/html/bolum_2_html/rcr_rcl_komutu.html">RCR ve RCL Komutları</a></li>
+                <li><a href="/assets/html/bolum_2_html/data_extra_segment.html"> Data Segment ve Extra Segment Kullanımı</a></li>
+                <li><a href="/assets/html/bolum_2_html/prosedur.html">Prosedür(Procedure) Nedir?</a></li>
+                <li><a href="/assets/html/bolum_2_html/makro.html">Makro(Macro) Nedir?</a></li>
+                <li><a href="/assets/html/bolum_2_html/kesmeler.html">Kesme Nedir?</a></li>
+ -->
+
+                <li><a href="/assets/html/arduino/arduino_programlama.html">Arduino Programlama</a></li>
+                <li><a href="/assets/html/arduino/program_yapisi.html">Program Yapisi</a></li>
+                <li><a href="/assets/html/arduino/kontrol_yapisi.html">Kontrol Yapısı</a></li>
+
+
+
+            </ul>
+        </div>
+    </header>
+
+
+<div class="row">
+        
+    <div class="col-2 color-dark pt-3">
+        
+        <div id="list-example" class="left-aside fs-50 pe-2 list-group scrool-bar">
+            <h2 class="mt-4 mb-4">Tutorial</h2>
+            <a class="list-group-item list-group-item-action" href="#id_1">if</a>
+            <a class="list-group-item list-group-item-action" href="#id_2">if/else</a>
+            <a class="list-group-item list-group-item-action" href="#id_3">switch/case</a>
+            <a class="list-group-item list-group-item-action" href="#id_4">while</a>
+            <a class="list-group-item list-group-item-action" href="#id_5">do/while</a>
+            <a class="list-group-item list-group-item-action" href="#id_6">break</a>
+            <a class="list-group-item list-group-item-action" href="#id_7">continue</a>
+            <a class="list-group-item list-group-item-action" href="#id_8">return</a>
+            <a class="list-group-item list-group-item-action" href="#id_9">go to</a>
+            <a class="list-group-item list-group-item-action" style="color: red;" href="/assets/html/arduino/arduino_emulator.html"><> Arduino Emulator</a>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="col-12 padding-0 mt-50">
+
+        <div data-bs-spy="scroll"  data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+
+            <div data-bs-target="#nedir" id="mikroishlemci_programlama">
+
+                <div class="ishlemci-denetleyici-div pt-5">
+
+                    <div class="ishlemci-denetleyici-h3 bg-primary text-light">
+                        <h3 id="id_1">if</h3>
+                    </div>
+                    
+                                <!-- DATA START  -->
+
+                        <section>
+
+                            <br><br>
+                            <p>#if Türkçe karşılığı eğer demektir. Mesela eğer butona 
+                                basıldıysa ledi yak vb. durumlarda veya karşılaştırmalarda 
+                                kullanılırız.
+                                </p>
+                                <br><br>
+                                <h4 style="color: rgb(66, 66, 255);">Örnek</h4>
+
+                                <p>Şekildeki devreyi kurup if yapısını anlamaya çalışalım</p>
+
+                                <div class="bitli_birimler">
+                                    <img style="width: 40%;" src="/assets/img/arduino_img/k1.jpg" alt="">
+                                    <img style="width: 40%;" src="/assets/img/arduino_img/k2.jpg" alt="">
+                                    <img style="width: 40%;" src="/assets/img/arduino_img/k3.jpg" alt="">
+                                </div>
+
+
+
+                        </section>
+                </div>
+            </div>
+                                <!-- DATA END  -->
+
+
+
+            <section id="kume_programlama" class="mt-5">
+
+                <div class="ishlemci-denetleyici-h3 bg-primary text-light">
+                    <h2 id="id_2">if/else</h2>
+                </div>
+                
+                                <!-- DATA START  -->
+
+
+                    <section>
+                        <br><br>
+                        <p>#İf else değimi koşullu ifade yürütmek için kullanılır. İf eğer 
+                            demekti else, değil ise demektir. if ve else birlikte kullanılır. 
+                            Programlama dilinde else tek başına kullanılamaz.
+                            </p>
+                    
+                            <div class="bitli_birimler">
+                                <img style="width: 40%;" src="/assets/img/arduino_img/k4.jpg" alt="">
+                            </div>
+
+                    
+                    </section>
+
+                    <div class="ishlemci-denetleyici-h3 bg-primary text-light">
+                        <h2 id="id_3">switch/case</h2>
+                    </div>
+                    <br><br>
+
+                    <p>#switch/case bir ifadenin sabit değerlerinden birisiyle eşleşip 
+                        eşleşmediğini test eden çok yönlü bir karar verme yapısıdır
+                    </p>
+    
+                    <br><br>
+                    <p>Bir switch/case yapısından çıkışı sağlamak ya da sonlandırmak 
+                        için break yada return kullanılır</p>
+                        
+                        <h4 style="color: rgb(66, 66, 255);">Örnek</h4>
+
+                        <p>Aşağıdaki devreyi kurup switch/case yapısını anlamaya 
+                            çalışalım</p>
+
+
+                            <div class="bitli_birimler">
+                                 <img style="width: 30%;" src="/assets/img/arduino_img/k5.jpg" alt="">
+                            </div>
+
+                        <h4 style="color: rgb(255, 205, 66);">Not</h4>
+
+                        <p>Arduino analogRead fonksiyonu, <strong>ADC (Analog to Digital 
+                            Convertor) 10 bit</strong> olduğu için maximum 2^10 = 1024, ve 0 
+                            dahil olduğu için de 0-1023 arası değerler alır</p>
+
+                            <div class="bitli_birimler">
+                                <img style="width: 40%;" src="/assets/img/arduino_img/k6.jpg" alt="">
+                           </div>
+
+                           <h4 style="color: rgb(255, 205, 66);">Not</h4>
+                           <p><strong>Pull-up dirençler;</strong>elektronik devrelerde lojik sistemlere 
+                            girişlerin (input), eğer dışarıdan bağlı cihazların bağlantısı 
+                            kesildiyse, umulan lojik seviyelerde kalmalarını sağlamada 
+                            kullanılır</p>
+                            <div class="bitli_birimler">
+                                <img style="width: 40%;" src="/assets/img/arduino_img/k7.jpg" alt="">
+                           </div>
+
+                           <div class="ishlemci-denetleyici-h3 bg-primary text-light">
+                                <h2 id="id_4">while</h2>
+                            </div>
+                            
+                            <br><br>
+
+                            <p class="ms-5">while (ifade) { <br>
+                                // İfadeler <br>
+                               }
+                               #while (ifade) döngüsü ifadenin doğru olduğu durumlarda iki 
+                               süslü parantez içindeki ifadeleri baştan aşağı çalıştırır, tekrar 
+                               başa döner çalıştırır. Sonsuz döngü içine girer</p>
+
+                               <br><br>
+                               <h4 style="color: rgb(66, 66, 255);">Örnek</h4>
+
+                               <p>Aşağıdaki devrede while döngüsüne girecek ledi yakacak, 1 
+                                saniye bekleyip ledi söndürecek ve ifadeyi 1 arttıracaktır. While 
+                                döngüsünde 49 kere aynı işlemi yaptıktan sonra tekrar while 
+                                döngüsüne girmeyecektir</p>
+
+                                <div class="bitli_birimler">
+                                    <img style="width: 40%;" src="/assets/img/arduino_img/k8.jpg" alt="">
+                                    <img style="width: 40%;" src="/assets/img/arduino_img/k9.jpg" alt="">
+                               </div>
+    
+                            <div class="ishlemci-denetleyici-h3 bg-primary text-light">
+                                <h2 id="id_5">do/while</h2>
+                            </div>
+                            <br><br>
+
+                            <p>#do-while döngüsü öncelikle do parantez içindeki işlemi yapar 
+                                ve while ile yapılan işlemi kontrol eder</p>
+
+                                <br><br>
+                                <h4 style="color: rgb(66, 66, 255);">Örnek</h4>
+
+                                <p>Aşağıdaki devrede do döngüsüne girecek sayıyı beş arttıracak, 
+                                    seri ekranımıza yazdıracak while ile durumu kontrol edecektir. 
+                                    Sayımız 25 ten büyük olduğu zaman döngüden çıkacaktır</p>
+
+                                    <div class="bitli_birimler">
+                                        <img style="width: 40%;" src="/assets/img/arduino_img/k11.jpg" alt="">
+                                   </div>
+
+                                   <div class="ishlemci-denetleyici-h3 bg-primary text-light">
+                                    <h2 id="id_6">break</h2>
+                                </div>
+                                <br><br>
+
+                                <p>Break do, for, ve while döngülerinden döngü çalışması bittiğinde 
+                                    döngü dışına çıkmak için kullanılır. Switch case yapısında da 
+                                    kullanılır</p>
+
+                                    <br><br>
+                                    <h4 style="color: rgb(66, 66, 255);">Örnek</h4>
+
+                                    <p>Aşağıdaki programda sensör değeri 300 den büyükse döngü 
+                                        dışına çıkılır</p>
+    
+                                        <div class="bitli_birimler">
+                                            <img style="width: 30%;" src="/assets/img/arduino_img/k12.jpg" alt="">
+                                       </div>
+
+
+                                       <div class="ishlemci-denetleyici-h3 bg-primary text-light">
+                                        <h2 id="id_7">continue</h2>
+                                    </div>
+                                    <br><br>
+
+                                    <p>Continue do, for, while döngülerinde bir satırın, işlem 
+                                        yapılmadan geçilmesini istediğimiz durumlarda kullanılır</p>
+    
+                                        <div class="bitli_birimler">
+                                            <img style="width: 30%;" src="/assets/img/arduino_img/k13.jpg" alt="">
+                                       </div>
+
+                                       
+                                       <div class="ishlemci-denetleyici-h3 bg-primary text-light">
+                                        <h2 id="id_8">return</h2>
+                                    </div>
+                                    <br><br>
+                                    <p>Return bir fonksiyon sonlandırılmak istenirse return ile 
+                                        döndürülecek değer belirtilir. Returnun ikinci bir kullanımı da 
+                                        belli bir yerden sonra kodlar çalışmasın istiyorsak return 
+                                        kullanırız</p>
+
+                                        <br><br>
+                                        <h4 style="color: rgb(66, 66, 255);">Örnek</h4>
+    
+                                        <p>Aşağıdaki program parçasında okuduğumuz sensör değeri 250 
+                                            den büyük ise 1 değerini döndürür</p>
+                                            <br><br>
+                                            <p>250 den küçük ise sıfır değerini döndürür</p>
+
+                                            <div class="bitli_birimler">
+                                                <img style="width: 30%;" src="/assets/img/arduino_img/k14.jpg" alt="">
+                                           </div>
+    
+                                           <p>2.kullanım yolu:</p>
+    
+    
+                                           
+                                           <div class="bitli_birimler">
+                                            <img style="width: 30%;" src="/assets/img/arduino_img/k15.jpg" alt="">
+                                       </div>
+
+
+                                       <div class="ishlemci-denetleyici-h3 bg-primary text-light">
+                                        <h2 id="id_9">go to</h2>
+                                    </div>
+                                    <br><br>
+
+                                    <p>Go to program akışını istediğimiz yöre yönlendirir</p>
+
+
+                                    <div class="bitli_birimler">
+                                        <img style="width: 30%;" src="/assets/img/arduino_img/k16.jpg" alt="">
+                                   </div>
+
+
+                            <!-- DATA END  -->
+
+            </section>
+    
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="contact d-flex">
+
+            <div>
+                <h4>About Us</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quas consectetur rem incidunt possimus iusto unde quis minus! Quas, minima.</p>
+            </div>
+
+            <div>
+                <h4>Contact</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse nobis accusantium quam porro in possimus repellendus nisi voluptatibus incidunt. Officia.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
